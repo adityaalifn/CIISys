@@ -1,0 +1,14 @@
+
+
+.logo-cis{
+    font-family: 'Monoton', cursive;    
+    margin-left: 30dp;
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+}
+.centered-form{
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.8);
+}
