@@ -19,7 +19,7 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="daftarbarang.php">Daftar Barang</a></li>
-      <li class="active"><a href="#">Input Data Barang</a></li>
+      <li class="active"><a href="inputbarang.php">Input Data Barang</a></li>
       <li><a href="inputdatasupplier.php">Input Data Supplier</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -86,7 +86,7 @@
                     <div class="control-group">
                         <!-- Button -->
                         <div class="controls">
-                          <button type="submit" class="btn btn-success">Input</button>
+                          <button name="input" type="submit" class="btn btn-success">Input</button>
                         </div>
                     </div>
           </fieldset>

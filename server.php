@@ -64,7 +64,7 @@
 				$_SESSION['username'] = $username;
                 $_SESSION['posisi'] = "koordinator";
 				$_SESSION['success'] = "You are now logged in as Koordinator";
-				header('location: underconstruction.html');
+				header('location: menukoordinator.php');
 			}
 			else if (mysqli_num_rows(mysqli_query($db,"SELECT * FROM pegawai WHERE (Username='$username' AND Password='$password' AND Posisi='gudang')")) == 1){
                 $_SESSION['username'] = $username;
@@ -76,7 +76,7 @@
                 $_SESSION['username'] = $username;
                 $_SESSION['posisi'] = "kasir";
                 $_SESSION['success'] = "You are now logged in as Kasir";
-                header('location: underconstruction.html');
+                header('location: transaksi.php');
             }
             else if (mysqli_num_rows(mysqli_query($db,"SELECT * FROM manajer WHERE (id_manajer='$username' AND password='$password')")) == 1){
                 $_SESSION['username'] = $username;
